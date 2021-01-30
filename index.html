@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOGTYPE</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Potta+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <h1>DOGTYPE</h1>
+    <main>
+      <div class="search">
+        <input list="dog-list" placeholder="Search and select a breed" />
+        <datalist id="dog-list"> </datalist>
+      </div>
+      <h2 class="breed"></h2>
+      <div class="images"></div>
+    </main>
+
+    <!-- Scripts -->
+    <script src="js/dogList.js"></script>
+    <script src="js/app.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-XTRXH5DENK"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-XTRXH5DENK");
+    </script>
+  </body>
+</html>

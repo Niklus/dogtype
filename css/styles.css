@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Potta One", cursive;
+  background-color: #eeeeee;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 30px;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 30px;
+  text-transform: capitalize;
+}
+
+.search {
+  text-align: center;
+}
+
+.search input {
+  font-size: 30px;
+  width: 50%;
+  margin-top: 30px;
+}
+
+datalist {
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+.images {
+  max-width: 1300px;
+  margin: auto;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.images img {
+  height: 300px;
+  width: 400px;
+  object-fit: cover;
+  padding: 5px;
+}
+
+a {
+  text-decoration: none;
+}
