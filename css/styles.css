@@ -53,3 +53,16 @@ datalist {
 a {
   text-decoration: none;
 }
+
+@media screen and (max-width: 600px) {
+  .search input {
+    width: 300px;
+  }
+
+  .images img {
+    height: 250px;
+    width: 350px;
+    object-fit: cover;
+    padding: 5px;
+  }
+}
