@@ -1,3 +1,3 @@
 # Dogtype
 
-A simple app for browsing dog breeds: [dogtype.net](https://dogtype.net)
+A simple app for browsing dog breeds: [Live Link](https://dogtypes.netlify.app/)
